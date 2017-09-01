@@ -2,3 +2,8 @@ baseURL = "https://oshliaer.github.io/"
 languageCode = "en-us"
 title = "title"
 theme="blank"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = "series"
