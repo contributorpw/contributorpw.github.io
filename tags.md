@@ -4,14 +4,12 @@ title: Tags
 
 All blog posts, grouped by tags.
 
-{% assign tags = site.tags | sort %}
+{% for tag in site.tags %}
 
-{% for tag in tags %}
-
-<h3>#{{ tag[0] }}</h3>
-
-{% for post in tag[1] %}
-
-- [{{ post.title }}]({{ post.url | relative_url }})
-  {% endfor %}
-  {% endfor %}
+  <h3>{{ tag[0] }}</h3>
+  <ul>
+    {% for post in tag[1] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
