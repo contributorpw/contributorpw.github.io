@@ -4,6 +4,8 @@ title: Tags
 
 All blog posts, grouped by tags.
 
+{{ site.baseurl }}
+
 {% for tag in site.tags %}
 
   <h3>{{ tag[0] }}</h3>
