@@ -2,7 +2,11 @@
 
 [Загрузить Excel-вложение Gmail в Таблицу](./google-apps-script/save-excel-gmail-attachment-to-sheet.ru)
 
-# Read me
+## Приложения
+
+- [Prettier в браузере](https://github.contributor.pw/prettier-browser/)
+
+## Read me
 
 ## Teach me
 
