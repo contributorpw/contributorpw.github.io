@@ -1,4 +1,4 @@
-# Загрузить почтовое вложение Gmail 
+# Загрузить Excel-вложение Gmail в Таблицу
 
 > **Задача**: Необходимо загрузить вложение (файл Excel) Gmail в заданную Таблицу Google
 
@@ -34,3 +34,5 @@ function saveExcelGmailAttachmentToExistingSheet() {
   DriveApp.getFileById(file.id).setTrashed(true);
 }
 ```
+
+* https://ru.stackoverflow.com/a/1492441/178725

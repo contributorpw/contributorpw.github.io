@@ -1,6 +1,6 @@
-# Blog
+## Заметки
 
-[test](./google-apps-script/save-excel-gmail-attachment-to-sheet.ru)
+[Загрузить Excel-вложение Gmail в Таблицу](./google-apps-script/save-excel-gmail-attachment-to-sheet.ru)
 
 # Read me
 
