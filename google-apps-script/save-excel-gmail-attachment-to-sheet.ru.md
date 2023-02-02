@@ -1,3 +1,9 @@
+---
+tags:
+  - test
+  - google apps script
+---
+
 # Загрузить Excel-вложение Gmail в Таблицу
 
 > **Задача**: Необходимо загрузить вложение (файл Excel) Gmail в заданную Таблицу Google
