@@ -29,7 +29,7 @@ function createAccurateTimeBasedTrigger_({ h, m, s, ms }) {
 
 Каждый раз, когда будет вызываться функция `myFunction` будет создаваться триггер для ее выполнения через сутки в 3:32 по времени скрипта
 
-```
+```js
 function myFunction() {
   // Необходимо поместить вначала функции
   createAccurateTimeBasedTrigger_({ h: 3, m: 32 });
@@ -38,7 +38,7 @@ function myFunction() {
 
 Пример, когда `myFunction` будет вызываться каждые сутки в 0:00
 
-```
+```js
 function myFunction() {
   // Необходимо поместить вначала функции
   createAccurateTimeBasedTrigger_();
