@@ -16,7 +16,7 @@ author:
   url: contributorpw
 permalink: pretty
 
-baseurl: ""
+baseurl: "/"
 
 highlighter: none
 
