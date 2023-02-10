@@ -1,1 +1,64 @@
 remote_theme: contributorpw/sidey
+
+site: Сайт
+url: github.contributor.pw
+title: Сайт
+description: Simple and minimalistic jekyll blogging theme.
+twitter:
+  username: contributorpw
+  card: summary
+  creator: Alex
+author:
+  twitter: contributorpw
+  name: contributorpw
+  avatar:
+  email: alex@contributor.pw
+  url: contributorpw
+permalink: pretty
+
+baseurl: ""
+
+highlighter: none
+
+exclude:
+  - .jekyll-cache
+  
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap  
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:slug
+  
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
