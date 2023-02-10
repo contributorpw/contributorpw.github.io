@@ -44,3 +44,8 @@ function myFunction() {
   createAccurateTimeBasedTrigger_();
 }
 ```
+### Реальное тестирование
+
+В [Таблице для тестирования] подобный триггер создает запись каждый день. Посмотрим, надолго ли его хватит
+
+[таблице для тестирования]: https://docs.google.com/spreadsheets/d/1IMN6nOkxSJLXv2Oy0Ug0X3hjTK3nQ4zWDF2QsJHppGA/edit?usp=sharing
