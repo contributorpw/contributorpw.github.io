@@ -1,8 +1,3 @@
----
-tags:
-  - test
-  - google apps script
----
 
 # Загрузить Excel-вложение Gmail в Таблицу
 
