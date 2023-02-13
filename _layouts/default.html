@@ -11,8 +11,10 @@
     <h2>All posts</h2>
     <div>
       {% for page in site.pages %}
-      <div class="item">
-        <h3>{{page.title}}</h3>
+      <div>
+        <ul>
+          <li>{{page.dir}}<a href="{{page.url}}">{{page.title}}</a></li>
+        </ul>
       </div>
       {% endfor %}
     </div>
