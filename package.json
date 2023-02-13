@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docs": "markdown-folder-to-html data",
-    "mv": "mv _data docs"
+    "start": "markdown-folder-to-html data && mv _data docs"
   },
   "repository": {
     "type": "git",
