@@ -17,7 +17,7 @@
 
 - [jackfrued/Python-100-Days]
 - [taers232c/GAMADV-XTD3]
-- [TrillCyborg/fullstack]
+- [TrillCyborg/fullstack] 
 - [botpress/botpress]
 - [donnemartin/system-design-primer]
 
